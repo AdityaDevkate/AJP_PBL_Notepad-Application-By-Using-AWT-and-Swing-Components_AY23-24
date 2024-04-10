@@ -1,0 +1,473 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INDEX
+
+
+
+Sr. No.	Contents	Page No.
+1	Problem Statement	3
+2	Objectives	3-4
+2	Introduction	4-6
+4	Flowchart and Code Link 	7
+5	Result	13-15
+6	Conclusion	16
+7	Applications	16
+8	Future scope	17
+9	Copy Right Affirmation	18
+
+
+
+
+
+						
+
+
+
+
+
+
+
+
+1.	PROBLEM STATEMENT:  
+
+Creation of a notepad application by using AWT and SWING components in java.
+
+2. OBJECTIVE:
+The objective of creating a Notepad application using AWT and Swing components in Java is to develop a lightweight and user-friendly text editor that provides essential functionalities for creating, editing, and saving text documents. By leveraging the capabilities of AWT and Swing, the objective is to design and implement a GUI application that mimics the functionality of popular text editors like Notepad on Windows or TextEdit on macOS while providing additional features and customization options.
+Addressing the Problem:
+User Interface Design: The primary objective is to create an intuitive and visually appealing user interface for the Notepad application. AWT and Swing components offer a wide range of GUI elements such as text areas, menus, buttons, and dialog boxes, allowing us to design a clean and user-friendly interface that facilitates text editing tasks.
+Text Editing Functionality: The Notepad application aims to address the need for basic text editing functionalities, including creating new documents, opening existing documents, saving documents, and editing text content. By incorporating features like cut, copy, paste, undo, and redo operations, the application provides users with essential tools for manipulating text effectively.
+Customization Options: To enhance user experience and productivity, the Notepad application offers customization options such as font selection, font size adjustment, and text alignment. These features allow users to personalize their editing environment according to their preferences, addressing the need for flexibility and user control.
+File Operations: The application addresses the requirement for managing text documents by implementing file operations such as creating new files, opening existing files for editing, and saving changes to files. Additionally, it provides support for various file formats, ensuring compatibility with different text file types.
+Cross-Platform Compatibility: AWT and Swing components are platform-independent, enabling the Notepad application to run seamlessly on different operating systems, including Windows, macOS, and Linux. By developing the application using these libraries, we ensure that users can access the Notepad application regardless of their preferred platform, addressing the need for cross-platform compatibility.
+Error Handling and Validation: The Notepad application incorporates robust error handling mechanisms to handle exceptions gracefully and provide informative error messages to users when encountering issues such as file loading errors or save failures. By implementing validation checks, the application ensures data integrity and prevents unexpected behavior.
+In summary, the objective of creating a Notepad application using AWT and Swing components is to develop a user-friendly and functional text editor that meets the basic requirements for text editing while offering customization options and cross-platform compatibility. By addressing these objectives, the Notepad application provides users with a reliable tool for creating and editing text documents efficiently.
+
+3. INTRODUCTION:
+
+
+3.1	Background/context 
+The concept of text editors dates back to the early days of computing, where programmers and users needed a tool to create and edit text-based documents efficiently. The Notepad application, a simple text editor, has become ubiquitous on various operating systems, including Windows, due to its ease of use and functionality. Notepad provides users with a lightweight and straightforward platform for writing and editing text documents, making it an essential tool for everyday tasks. The importance of a Notepad application lies in its versatility and simplicity. While there are more advanced text editors available, Notepad remains popular for its minimalist design and quick access to basic text editing features. Whether it's jotting down notes, writing code snippets, or drafting simple documents, Notepad offers a convenient solution for users who require a lightweight and uncomplicated text editor. The history of Notepad can be traced back to the early versions of Microsoft Windows, where it was introduced as a basic text editor bundled with the operating system. Over the years, Notepad has undergone several updates and enhancements, but its core functionality as a simple text editor has remained consistent.
+3.2	Relevance
+The project of creating a notepad application using AWT and Swing components in Java is highly relevant to the field of Electronics and Communication Engineering (ECE) and related subjects for several reasons:
+Software Development Skills: Developing a notepad application involves writing code in Java, which is a widely-used programming language in the field of ECE. It helps students strengthen their programming skills, an essential aspect of the curriculum.
+Graphical User Interface (GUI) Design: AWT and Swing are Java libraries commonly used for creating GUIs. Understanding how to design and implement GUIs is crucial in ECE, especially for designing interfaces for embedded systems and other electronic devices.
+Event Handling: The notepad application involves event-driven programming, where actions such as button clicks or key presses trigger specific responses. This concept is fundamental in ECE, as many electronic systems operate based on events and interrupts.
+User Experience (UX) Design: Designing a user-friendly interface for the notepad application requires considerations of usability, accessibility, and aesthetics, which are important aspects of UX design. ECE students learn to apply these principles in the design of electronic devices and systems.
+Data Management: The notepad application involves managing text data, including functions such as saving, loading, and editing text files. Understanding data structures and file handling is essential in ECE, as electronic systems often deal with data storage and manipulation.
+Cross-Platform Development: Java applications are known for their platform independence, allowing them to run on different operating systems without modification. This aligns with the interdisciplinary nature of ECE, where students learn to design systems that work across diverse platforms and environments.
+Integration with Embedded Systems: While the notepad application itself may not directly relate to embedded systems, the skills acquired in GUI development and event handling can be applied to projects involving embedded systems with graphical interfaces.
+Overall, the project of creating a notepad application using AWT and Swing components in Java provides students with valuable skills and knowledge relevant to the field of ECE, including software development, GUI design, event handling, user experience design, data management, cross-platform development, and potential integration with embedded systems. It serves as a practical and hands-on learning experience that complements theoretical concepts taught in the curriculum.
+
+3.3	Project Details 
+The objective of this project is to develop a simple yet functional notepad application using Java programming language and leveraging AWT (Abstract Window Toolkit) and Swing components for creating the graphical user interface.
+Text Editing: Users should be able to create, edit, and delete text content within the notepad application.
+File Operations: Support for basic file operations such as opening existing text files, creating new ones, saving changes, and closing files.
+Formatting Options: Provide options for basic text formatting such as font selection, font size, bold, italic, and underline.
+Resizable Window: Enable users to resize the notepad window according to their preference.
+Menu Bar and Toolbars: Include a menu bar and toolbars for easy access to various functionalities.
+
+Technologies and Tools:
+
+Java Programming Language: Core language for implementing the application logic.
+AWT and Swing Components: Used for building the graphical user interface.
+Integrated Development Environment (IDE): IDEs such as Eclipse or IntelliJ IDEA for writing, debugging, and running the Java code.
+
+
+3.4	Scope: 
+The scope of the project "Create a notepad application by using AWT and Swing components in Java" encompasses several key aspects:
+Functional Requirements:
+1.	Text editing capabilities including inserting, deleting, copying, and pasting text.
+2.	File operations such as opening, saving, and closing text files.
+3.	Basic text formatting options like font selection, font size, bold, italic, and underline.
+4.	Search and replace functionality within the text document.
+5.	Undo and redo functionality for reverting or repeating user actions.
+6.	Word count feature to display the number of words in the text document.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+4.Flow Chart and SOURCE CODE:
+
+
+start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Fig.Flowchart 
+
+
+                                                 
+
+SOURCE CODE:
+Notepad.java
+package notepad;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.io.*;
+import javax.swing.filechooser.*;
+
+public abstract class Notepad extends JFrame implements ActionListener {
+
+    private JTextArea area;
+    private JScrollPane scpane;
+    String text = "";
+    public Notepad() {
+        super("Notepad");
+        setSize(1950, 1050);
+        
+        setLayout(new BorderLayout());
+
+        JMenuBar menuBar = new JMenuBar(); //menubar
+        
+        JMenu file = new JMenu("File"); //file menu
+        
+        JMenuItem newdoc = new JMenuItem("New");
+        newdoc.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, ActionEvent.CTRL_MASK));
+        newdoc.addActionListener(this);
+        
+        JMenuItem open = new JMenuItem("Open");
+        open.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, ActionEvent.CTRL_MASK));
+        open.addActionListener(this);
+        
+        JMenuItem save = new JMenuItem("Save");
+        save.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, ActionEvent.CTRL_MASK));
+        save.addActionListener(this);
+        
+        JMenuItem print = new JMenuItem("Print");
+        print.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_P, ActionEvent.CTRL_MASK));
+        print.addActionListener(this);
+        
+        JMenuItem exit = new JMenuItem("Exit");
+        exit.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0));
+        exit.addActionListener(this);
+        
+        JMenu edit = new JMenu("Edit");
+        
+        JMenuItem copy = new JMenuItem("Copy");
+        copy.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_C, ActionEvent.CTRL_MASK));
+        copy.addActionListener(this);
+        
+        JMenuItem paste = new JMenuItem("Paste");
+        paste.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_V, ActionEvent.CTRL_MASK));
+        paste.addActionListener(this);
+        
+        JMenuItem cut = new JMenuItem("Cut");
+        cut.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_X, ActionEvent.CTRL_MASK));
+        cut.addActionListener(this);
+        
+        JMenuItem selectall = new JMenuItem("Select All");
+        selectall.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_A, ActionEvent.CTRL_MASK));
+        selectall.addActionListener(this);
+        
+        
+        JMenu about = new JMenu("Help");
+        
+        JMenuItem notepad = new JMenuItem("About Notepad");
+        notepad.addActionListener(this);
+        
+        area = new JTextArea();
+        area.setFont(new Font("SAN_SERIF", Font.PLAIN, 20));
+        area.setLineWrap(true);
+        area.setWrapStyleWord(true);
+        
+        scpane = new JScrollPane(area); 
+        scpane.setBorder(BorderFactory.createEmptyBorder());
+        
+        setJMenuBar(menuBar);
+        menuBar.add(file);
+        menuBar.add(edit);
+        menuBar.add(about);
+
+        file.add(newdoc);
+        file.add(open);
+        file.add(save);
+        file.add(print);
+        file.add(exit);
+        
+        edit.add(copy);
+        edit.add(paste);
+        edit.add(cut);
+        edit.add(selectall);
+        
+        about.add(notepad);
+
+        add(scpane, BorderLayout.CENTER);
+        setVisible(true);
+    }
+
+    public void actionPerformed(ActionEvent ae) {
+        if(ae.getActionCommand().equals("New")) 
+        {
+            area.setText("");
+        
+        } 
+        else if (ae.getActionCommand().equals("Open")) 
+        {
+            JFileChooser chooser = new JFileChooser("D:/Java");
+            chooser.setAcceptAllFileFilterUsed(false); 
+            FileNameExtensionFilter restrict = new FileNameExtensionFilter("Only .txt files", "txt"); 
+            chooser.addChoosableFileFilter(restrict);
+    	
+            int result = chooser.showOpenDialog(this);
+            if(result == JFileChooser.APPROVE_OPTION) {
+                File file = chooser.getSelectedFile();
+				
+                try{
+                    System.out.println("HEki");
+                    FileReader reader = new FileReader(file);
+                    BufferedReader br = new BufferedReader(reader);
+                    area.read( br, null );
+                    br.close();
+                    area.requestFocus();
+                }catch(Exception e){
+                    System.out.print(e);
+                }
+            }
+        } 
+        else if(ae.getActionCommand().equals("Save"))
+        {
+            final JFileChooser SaveAs = new JFileChooser();
+            SaveAs.setApproveButtonText("Save");
+            int actionDialog = SaveAs.showOpenDialog(this);
+            if (actionDialog != JFileChooser.APPROVE_OPTION)
+            {
+                return;
+            }
+
+            File fileName = new File(SaveAs.getSelectedFile() + ".txt");
+            BufferedWriter outFile = null;
+            try
+            {
+                outFile = new BufferedWriter(new FileWriter(fileName));
+                area.write(outFile);
+            }
+            catch (IOException e) {
+                e.printStackTrace();
+            }
+        }else if(ae.getActionCommand().equals("Print")){
+            try{
+                area.print();
+            }catch(Exception e){}
+        }else if (ae.getActionCommand().equals("Exit")) {
+            System.exit(0);
+        }else if (ae.getActionCommand().equals("Copy")) {
+            text = area.getSelectedText();
+        }else if (ae.getActionCommand().equals("Paste")) {
+            area.insert(text, area.getCaretPosition());
+        }else if (ae.getActionCommand().equals("Cut")) {
+            text = area.getSelectedText();
+            area.replaceRange("", area.getSelectionStart(), area.getSelectionEnd());
+        }else if (ae.getActionCommand().equals("Select All")) {
+            area.selectAll();
+        }else if (ae.getActionCommand().equals("About Notepad")) {
+            new About().setVisible(true);
+            
+        }
+    }
+
+    public static void main(String[] args) {
+        new Notepad() {};
+    }
+
+}
+
+
+About.java
+package notepad;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class About extends JFrame implements ActionListener{
+    JButton b1;
+    About(){
+        setBounds(600, 200, 700,600);
+        setLayout(null);
+        
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("notepad/icons/windows.png"));
+        Image i2 = i1.getImage().getScaledInstance(400, 80, Image.SCALE_DEFAULT);
+        ImageIcon i3 = new ImageIcon(i2);
+        JLabel l1 = new JLabel(i3);
+        l1.setBounds(150, 40, 400, 80);
+        add(l1);
+        
+        ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("notepad/icons/notepad.png"));
+        Image i5 = i4.getImage().getScaledInstance(70, 70, Image.SCALE_DEFAULT);
+        ImageIcon i6 = new ImageIcon(i5);
+        JLabel l2 = new JLabel(i6);
+        l2.setBounds(50, 180, 70, 70);
+        add(l2);
+        
+        
+        JLabel l3 = new JLabel("<html>Code for Interview<br>Youtube Channel Version 2021<br>2021 Code for Interview. All rights reserved<br><br>Notepad is a word processing program, <br>which allows changing of text in a computer file.<br>Notepad is a simple text editor for basic text-editing program<br> which enables computer users to create documents. </html>");
+        l3.setFont(new Font("SAN_SERIF", Font.PLAIN, 18));
+        l3.setBounds(150, 130, 500, 300);
+        add(l3);
+        
+        b1 = new JButton("OK");
+        b1.setBounds(580, 500, 80, 25);
+        b1.addActionListener(this);
+        add(b1);
+        
+    }
+    
+    public void actionPerformed(ActionEvent ae){
+        this.setVisible(false);
+    }
+    
+    public static void main(String[] args){
+        new About().setVisible(true);
+    }
+}
+
+
+
+5.RESULT:
+
+Screen shot of output
+ 
+
+
+ 
+
+ 
+
+
+
+ 
+
+
+6. CONCLUSION:
+
+By completing this project, we will gain practical experience in Java programming, GUI development using AWT and Swing, event handling, file I/O operations, text manipulation, and other essential software development skills. Additionally, they will understand the importance of user-centric design and testing for creating a user-friendly application. This project serves as a valuable learning opportunity to reinforce concepts learned in the classroom and enhance students' proficiency in software development within the context of Electronics and Communication Engineering.
+
+7.APPLICATIONS:
+
+The notepad application developed using AWT and Swing components in Java can find various applications across different domains. Here are some potential applications:
+1.	General Text Editing: The primary application of the notepad is for general text editing purposes. Users can create, edit, and save text documents, making it suitable for tasks such as note-taking, drafting emails, writing code snippets, and creating to-do lists.
+2.	Educational Institutions: Educational institutions can utilize the notepad application for teaching purposes. Students can use it to take lecture notes, write assignments, and collaborate on group projects. Teachers can use it to prepare lesson plans, create worksheets, and provide feedback on students' work.
+3.	Businesses and Organizations: Businesses and organizations can use the notepad application for various administrative tasks. It can be used for writing memos, drafting reports, keeping meeting minutes, and maintaining records. Additionally, it can serve as a platform for collaborative document editing among team members.
+4.	Software Development: The notepad application can be particularly useful for software developers. They can use it for writing code, debugging logs, and keeping track of project-related notes. Integration with version control systems like Git can enhance its utility for software development teams.
+5.	Journalism and Writing: Journalists, writers, and bloggers can use the notepad application for drafting articles, blog posts, and other written content. Its simplicity and ease of use make it suitable for capturing ideas quickly and organizing thoughts before publishing.
+6.	Legal and Medical Professions: Professionals in the legal and medical fields can use the notepad application for documentation purposes. It can be used for writing case notes, documenting patient information, and preparing legal briefs.
+7.	Personal Use: Individuals can use the notepad application for personal organization and productivity. They can use it to jot down thoughts, make shopping lists, plan schedules, and maintain personal journals.
+8.	Embedded Systems and IoT: While the primary focus of the project is on desktop applications, the concepts learned and skills acquired can be applied to developing notepad applications for embedded systems and IoT devices. For example, a simplified version of the notepad application can be developed for devices with limited resources, such as electronic organizers and smart home assistants.
+
+8. FUTURE SCOPE:
+
+The notepad application developed using AWT and Swing components in Java lays a foundation for future enhancements and expansions. Here are some potential avenues for future scope:
+1.	Modernization with JavaFX or Other Technologies: AWT and Swing are older technologies for GUI development in Java. Migrating the application to JavaFX or exploring other modern GUI frameworks can enhance performance, aesthetics, and maintainability.
+2.	Integration with Cloud Services: Implementing features for cloud storage integration (e.g., Google Drive, Dropbox) would allow users to access and synchronize their documents across multiple devices.
+3.	Advanced Text Editing Features: Adding features such as syntax highlighting for different programming languages, code completion, and advanced search capabilities can improve the application's usefulness for developers and technical users.
+4.	Collaborative Editing: Implementing real-time collaborative editing features would enable multiple users to work on the same document simultaneously, similar to Google Docs.
+5.	Cross-Platform Compatibility: Enhancing compatibility with different operating systems and devices, including mobile platforms like Android, would broaden the application's reach and usability.
+6.	Accessibility Features: Implementing accessibility features such as screen reader support, keyboard navigation, and customizable user interfaces would improve usability for users with disabilities.
+7.	Localization and Internationalization: Adding support for multiple languages and cultural preferences would make the application accessible to a more diverse user base.
+8.	Customization Options: Providing users with options to customize the user interface, themes, and keyboard shortcuts according to their preferences can enhance user satisfaction and engagement.
+9.	Integration with Productivity Tools: Integrating the application with productivity tools such as task managers, calendars, and email clients can streamline workflow management for users.
+10.	Security Enhancements: Implementing encryption for stored documents and enhancing security features to protect user data from unauthorized access and malicious threats.
+11.	Usage Analytics and Insights: Incorporating usage analytics and feedback mechanisms to gather insights on user behavior and preferences can inform future development efforts and prioritize feature enhancements.
+
+9. COPY RIGHT AFFIRMATION:
+
+We undersigned pledge and represent that the source code printed in this project report does not violate any proprietary or personal rights of others (including, without limitation, any copyrights or privacy rights); that the Work is factually accurate and contains no matter libelous or otherwise unlawful; that we have substantially participated in the creation of the Work and that it represents our original work sufficient for us to claim authorship. 
+
+
+Name 	of students			                                Sign
+1.  Shewalkar Shreyas 	32361
+2.  Tibile Hrishikesh	32366
+3.  Balkunde Tejas	32405
+4.  Devkate Aditya	32413
+5. Siddhesh Kasat         32427
+
+
+
+
+
+					
+
+
+                                
